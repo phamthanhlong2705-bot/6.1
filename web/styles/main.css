@@ -1,0 +1,74 @@
+/* Đặt font và layout chung */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f6f9;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+/* Tiêu đề */
+h1 {
+    color: #0066cc;
+    font-size: 22px;
+    margin-top: 20px;
+}
+
+/* Đoạn văn bản */
+p {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+/* Label + Input */
+label {
+    display: inline-block;
+    width: 150px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+input[type="text"],
+input[type="email"],
+select {
+    width: 250px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #bbb;
+    border-radius: 4px;
+}
+
+/* Radio & Checkbox */
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+/* Nút Submit */
+#submit,
+input[type="submit"] {
+    background-color: #0066cc;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#submit:hover,
+input[type="submit"]:hover {
+    background-color: #004a99;
+}
+
+/* Danh sách kết quả trong thanks.jsp */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 6px;
+    font-size: 14px;
+}
